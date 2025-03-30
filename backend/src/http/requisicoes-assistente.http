@@ -1,0 +1,8 @@
+
+POST https://fabricio-vieira.app.n8n.cloud/webhook-test/e58f4d66-bba6-47e7-a558-22240c38252e
+Content-Type: application/json
+
+{
+    "chatId": "12345678",
+    "mensagem": "Olá, assistente! Como você está? Você trabalha com aplicações web?"
+}

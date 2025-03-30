@@ -32,10 +32,10 @@ model Projeto {
   nome String
   descricao String
   imagens String[]
-  nivel Int
+  nivel Int 
   tipo String
   destaque Boolean @default(false)
   repositorio String
-  tecnologias Tecnologia[]
+  tecnologias Tecnologia[]  
   @@map("projetos")
 }
