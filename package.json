@@ -1,12 +1,12 @@
 {
-  "name": "portfolio",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "dev": "npx concurrently \" cd backend && npm run start:dev\" \"cd web && npm run dev \""
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": ""
+    "name": "portfolio",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "dev": "npx concurrently \" cd backend && npm run start:dev\" \"cd frontend && npm run dev \""
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": ""
 }
