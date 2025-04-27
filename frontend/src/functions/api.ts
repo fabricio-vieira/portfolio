@@ -1,7 +1,10 @@
 const baseURL = process.env.NEXT_PUBLIC_API_URL
 
-export async function httpGet(url: string) {
-    const response = await fetch(normalizeUrl(`${baseURL}/${url}`))
+export async function httpGet(url: string, options: RequestInit = {}) {
+    const response = await fetch(normalizeUrl(`${baseURL}/${url}`), {
+        ...options,
+        cache: options.cache || 'default',
+    })
     return response.json()
 }
 

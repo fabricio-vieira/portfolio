@@ -6,6 +6,9 @@ import Tecnologias from '@/components/tecnologias/tecnologias'
 import { obterReadme } from '@/functions/github'
 import Readme from '@/components/projetos/Readme'
 
+// Configuração de revalidate em segundos (3600 = 1 hora)
+export const revalidate = 300
+
 export default async function PaginaProjeto(props: { params: Promise<{ id: string }> }) {
     const { id } = await props.params
     const projeto = await obterProjeto(id)
