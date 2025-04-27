@@ -1,5 +1,5 @@
 
-POST https://fabricio-vieira.app.n8n.cloud/webhook-test/e58f4d66-bba6-47e7-a558-22240c38252e
+POST https://fabricio-vieira.app.n8n.cloud/webhook-test/assistente-pessoal
 Content-Type: application/json
 
 {

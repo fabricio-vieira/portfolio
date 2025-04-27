@@ -15,7 +15,7 @@ export class ProjetoProvider {
             where: { id },
             include: {
                 tecnologias: {
-                    select: { id: true, nome: true, destaque: true },
+                    select: { id: true, nome: true, destaque: true, imagem: true },
                 },
             },
         }) as any
