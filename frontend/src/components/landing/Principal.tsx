@@ -19,9 +19,9 @@ export default function Principal(props: PrincipalProps) {
             <div className="flex-1 flex w-full flex-col justify-center gap-4 items-center">
                 <div className="flex flex-col items-center gap-2">
                     <h1 className="flex gap-3 items-center">
-                        <span className="w-2 h-2 rounded-full bg-red-500"></span>
-                        <span className="text-3xl sm:text-5xl font-bold text-center">Fabricio Vieira</span>
-                        <span className="w-2 h-2 rounded-full bg-red-500"></span>
+                        <span className="w-2 h-2 rounded-full bg-green-500"></span>
+                        <span className="text-3xl sm:text-5xl font-bold text-center">Fabricio Valério</span>
+                        <span className="w-2 h-2 rounded-full bg-green-500"></span>
                     </h1>
                     <h2 className="text-zinc-400 text-center">Gestor Porte Group CG</h2>
                 </div>

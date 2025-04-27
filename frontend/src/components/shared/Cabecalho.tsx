@@ -17,7 +17,7 @@ export default function Cabecalho() {
                     <Link
                         href="https://www.linkedin.com/in/fabricio-val%C3%A9rio-b05049286/"
                         target="_blank"
-                        className="bg-red-500 rounded-full px-7 py-1 text-sm font-bold"
+                        className="bg-green-500 rounded-full px-7 py-1 text-sm font-bold"
                     >
                         Perfil
                     </Link>
